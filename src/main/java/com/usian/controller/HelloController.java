@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping("/hello")
     public String hello(){
+        System.out.println("修改了！！！");
         return "hello spring boot!!";
     }
 }
